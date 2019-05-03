@@ -7,4 +7,4 @@ This method is based on using a special wavelet transform called “à trous”.
 
 
 ## Localization
-[Working principle of other localization algorithms](ftp://ftp.aip.org/epaps/journ_chem_phys/E-JCPSA6-148-013898)
+[Working principle of other localization algorithms](https://aip.scitation.org/doi/full/10.1063/1.5005899)
