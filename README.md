@@ -8,8 +8,8 @@ This method is based on using a special wavelet transform called “à trous”.
 2. [ThunderSTORM: a comprehensive ImageJ plug-in for PALM and STORM data analysis and super-resolution imaging](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4207427/)
 ThunderSTORM provides three different options for segmenting the potentioal region of interests (ROI): selecting the bright pixels that are larger than a certain threshold in a local neighbourhood, morphological non-maximum suppression and a combination of the first method and the one in [1]. All of these three approaches are based on using a user defined threshold. 
 
-3. [Imaging Intracellular Fluorescent Proteins at Nanometer Resolution (2006)](https://science.sciencemag.org/content/313/5793/1642)
-In PALM, first all frames are subtracted from a dark state frame to convert EMCCD detector counts to photons. Then, subsequent frames are subtracted from each other to yield bright spots as fluorescent molecules candidates. Finally, spots that their photon count in a neighbourhood of 2.5\*PSF is larger than five times the mean of the shot noise from the background are kept for the next steps.
+3. [Imaging Intracellular Fluorescent Proteins at Nanometer Resolution (2006)](https://science.sciencemag.org/content/313/5793/1642)  
+In PALM, first all frames are subtracted from a dark state frame to convert EMCCD detector counts to photons. Then, subsequent frames are subtracted from each other to yield bright spots as fluorescent molecule candidates. Finally, spots that their photon count in a neighbourhood of 2.5\*PSF is larger than five times the mean of the shot noise from the background are kept for the next steps.
 
 ## Localization
 [Working principle of other localization algorithms (2014)](https://aip.scitation.org/doi/full/10.1063/1.5005899)
