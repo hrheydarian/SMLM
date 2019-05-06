@@ -19,3 +19,9 @@ They incorporate the prior knowledge of camera noise model, PSF and experiment c
 
 ## Localization
 [Working principle of other localization algorithms (2014)](https://aip.scitation.org/doi/full/10.1063/1.5005899)
+
+1. [Center of mass]  
+
+2. [Radial symmetry](https://www.nature.com/articles/nmeth.2071)
+
+3. [Gaussian fitting]()
