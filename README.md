@@ -25,3 +25,6 @@ They incorporate the prior knowledge of camera noise model, PSF and experiment c
 2. [Radial symmetry](https://www.nature.com/articles/nmeth.2071)
 
 3. [Gaussian fitting]()
+
+4. [Computational correction of spatially variant optical aberrations in 3D single-molecule localization microscopy (2019)](https://www.osapublishing.org/oe/abstract.cfm?uri=oe-27-9-12582)  
+This approach is based on fitting full vectorial PSF model to the segmented spots (ROI)
