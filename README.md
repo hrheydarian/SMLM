@@ -15,7 +15,7 @@ In PALM, first all frames are subtracted from a dark state frame to convert EMCC
 The segmentation step in STORM imaging is based on spatio-temporal filtering of each recorded frame. Candidate regions of size 13x13 pixels are kept based on 3 criteria: They should be on for at least 3 frames, the elipticity of the 2D fitted Gaussian should be smaller than a certain threshold and the total number of photoelectrons in the ROI should be larger than 2000.  
 
 5. [Probability-based particle detection that enables threshold-free and robust in vivo single-molecule tracking (2015)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4710236/)  
-They incorporate the prior knowledge of camera noise model, PSF and experiment conditions into a statistical framework. In this framework, the probabiliy of a true positive pixel (pixel with intensity from the fluorescent molecules) is computed by comparing the foreground and background likelihood model. The main feature of this approach is that it provides the minimum number of false-negative at a fixed number of false positives. 
+They incorporate the prior knowledge of camera noise model, PSF and experiment conditions into a statistical framework. In this framework, the probabiliy of a true positive pixel (pixel with intensity from the fluorescent molecules) is computed by comparing the foreground and background likelihood model. The main features of this approach is that it is thereshold-free and it provides the minimum number of false-negative at a fixed number of false positives. 
 
 ## Localization
 [Working principle of other localization algorithms (2014)](https://aip.scitation.org/doi/full/10.1063/1.5005899)
